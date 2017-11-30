@@ -30,7 +30,7 @@ const restaurants = [
   },
   {
     name: 'Restaurace U svatého Filipa a Jakuba',
-    flags: [],
+    flags: ['czech'],
   },
   {
     name: 'Restaurace Ananta',
