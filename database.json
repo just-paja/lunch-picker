@@ -1,0 +1,42 @@
+[
+  {
+    "name": "McDonalds",
+    "flags": ["mall", "fastFood", "takeAway"]
+  },
+  {
+    "name": "KFC",
+    "flags": ["mall", "fastFood", "takeAway"]
+  },
+  {
+    "name": "Safir",
+    "flags": ["mall", "takeAway"]
+  },
+  {
+    "name": "Burrito Loco",
+    "flags": ["fastFood", "takeAway"]
+  },
+  {
+    "name": "Vidličky a nože",
+    "flags": []
+  },
+  {
+    "name": "Restaurant Kořenského",
+    "flags": ["burger"]
+  },
+  {
+    "name": "Restaurace U svatého Filipa a Jakuba",
+    "flags": ["czech"]
+  },
+  {
+    "name": "Restaurace Ananta",
+    "flags": ["vegan"]
+  },
+  {
+    "name": "Loving Hut",
+    "flags": ["mall", "vegan"]
+  },
+  {
+    "name": "Restaurace Andělský újezd",
+    "flags": ["fastFood", "asia"]
+  }
+]
