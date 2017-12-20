@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-node ./src/lunch.js $@
+node ./src/lunch.js database.json prevResults.json $@
