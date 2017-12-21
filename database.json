@@ -38,5 +38,17 @@
   {
     "name": "Restaurace Andělský újezd",
     "flags": ["fastFood", "asia"]
+  },
+  {
+    "name": "Bejzment",
+    "flags": ["burger", "expensive"]
+  },
+  {
+    "name": "Uhelna",
+    "flags": ["expensive"]
+  },
+  {
+    "name": "Pizzeria Einstein",
+    "flags": ["pizza", "isic", "italian", "pasta"]
   }
 ]
