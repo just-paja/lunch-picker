@@ -29,11 +29,11 @@
   },
   {
     "name": "Restaurace Ananta",
-    "flags": ["vegan"]
+    "flags": ["vegan", "vegetarian"]
   },
   {
     "name": "Loving Hut",
-    "flags": ["mall", "vegan"]
+    "flags": ["mall", "vegan", "vegetarian"]
   },
   {
     "name": "Restaurace Andělský újezd",
@@ -50,5 +50,25 @@
   {
     "name": "Pizzeria Einstein",
     "flags": ["pizza", "isic", "italian", "pasta"]
+  },
+  {
+    "name": "Lokal Blok",
+    "flags": ["hipster", "expensive"]
+  },
+  {
+    "name": "Šenkýrna Hlubina",
+    "flags": ["czech"]
+  },
+  {
+    "name": "Le Camille",
+    "flags": ["light", "vegetarian", "expensive"]
+  },
+  {
+    "name": "U Mikuláše Dačického",
+    "flags": ["czech"]
+  },
+  {
+    "name": "Pizza & Kebab Aladin",
+    "flags": ["kebab", "fastFood", "pizza", "takeAway"]
   }
 ]
