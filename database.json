@@ -9,7 +9,7 @@
   },
   {
     "name": "Safir",
-    "flags": ["mall", "takeAway"]
+    "flags": ["lebanon", "mall", "takeAway"]
   },
   {
     "name": "Burrito Loco",
@@ -17,14 +17,17 @@
   },
   {
     "name": "Vidličky a nože",
-    "flags": []
+    "website": "https://www.smichovskevidlicky.cz/",
+    "flags": ["classic"]
   },
   {
-    "name": "Restaurant Kořenského",
+    "name": "Gangster Burger",
+    "website": "https://www.gangsterburger.cz/",
     "flags": ["burger"]
   },
   {
     "name": "Restaurace U svatého Filipa a Jakuba",
+    "website": "http://www.filipjakub.cz/",
     "flags": ["czech"]
   },
   {
@@ -41,15 +44,13 @@
   },
   {
     "name": "Bejzment",
-    "flags": ["burger", "expensive"]
-  },
-  {
-    "name": "Uhelna",
-    "flags": ["expensive"]
+    "flags": ["burger", "expensive"],
+    "website": "https://www.bejzment.cz/"
   },
   {
     "name": "Pizzeria Einstein",
-    "flags": ["pizza", "isic", "italian", "pasta"]
+    "flags": ["pizza", "isic", "italian", "pasta"],
+    "website": "https://www.pizza-einstein.cz/stefanikova"
   },
   {
     "name": "Lokal Blok",
@@ -70,5 +71,13 @@
   {
     "name": "Pizza & Kebab Aladin",
     "flags": ["kebab", "fastFood", "pizza", "takeAway"]
+  },
+  {
+    "name": "Mezi řádky",
+    "flags": ["expensive", "glutenFree", "cafe"]
+  },
+  {
+    "name": "Tomkin",
+    "flags": ["asian", "thai", "vietnamese"]
   }
 ]
