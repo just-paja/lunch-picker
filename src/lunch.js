@@ -44,8 +44,11 @@ const filterRestaurantsByFlags = flags => restaurant => flags.every((flag) => {
   return flagInverse ? flagIndex === -1 : flagIndex !== -1;
 });
 
-const filterRestaurantsByLastChoices = prevResults => restaurant =>
-  prevResults[prevResults.length - 1].name !== restaurant.name;
+const filterRestaurantsByLastChoices = prevResults => restaurant => (
+  prevResults[prevResults.length - 1]
+    ? prevResults[prevResults.length - 1].name !== restaurant.name
+    : true
+);
 
 const filterUnique = (value, index, self) => self.indexOf(value) === index;
 
@@ -192,8 +195,7 @@ const main = () => {
     try {
       prevResults = JSON.parse(fs.readFileSync(prevResultsFile));
     } catch(e) {
-      console.error(e);
-      process.exit(4);
+      prevResults = [];
     }
   }
 
