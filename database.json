@@ -79,5 +79,9 @@
   {
     "name": "Tomkin",
     "flags": ["asian", "thai", "vietnamese"]
+  },
+  {
+    "name": "Dhaba Beas",
+    "flags": ["indian", "vegetarian", "takeAway"]
   }
 ]
